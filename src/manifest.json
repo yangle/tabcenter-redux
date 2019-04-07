@@ -1,4 +1,9 @@
 {
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "whocares@example.com"
+    }
+  },
   "name": "Tab Center Redux",
   "description": "__MSG_extensionDescription__",
   "homepage_url": "https://github.com/eoger/tabcenter-redux",

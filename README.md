@@ -3,6 +3,17 @@
 Your favorite vertical tabbed browsing add-on, now compatible with Firefox 57+.
 [Install the extension](https://addons.mozilla.org/firefox/addon/tab-center-redux/).
 
+## Install as an unsigned extension
+
+To sideload this extension without going through Mozilla's add-on signing
+nonsense, set `xpinstall.signatures.required` to `true` in `about:config` and
+install from `tcr.xpi` produced by:
+
+```bash
+cd src
+zip -r ../tcr.xpi .
+```
+
 ## Usage
 Open the sidebar by clicking on the toolbar icon or with the following hotkeys:
 - `Ctrl`+`Shift`+`O` on Windows
